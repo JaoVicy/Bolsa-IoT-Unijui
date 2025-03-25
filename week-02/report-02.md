@@ -1,6 +1,6 @@
-📅 Relatório - 22/03/2025
+# 📅 Relatório - 22/03/2025
 
-📌 Atividades realizadas:
+## 📌 Atividades realizadas:
 Conexão do tracker LilyGO a um satélite: Finalmente consegui conectar o tracker LilyGO a um satélite após várias tentativas. 🛰️
 
 Instalação do firmware padrão do Meshtastic: Baixei e instalei o firmware padrão do site do Meshtastic. O processo funcionou corretamente tanto no macOS quanto no Windows. 💻
@@ -11,8 +11,8 @@ Testes de localização: Realizei testes no estacionamento do Prédio 1 da Fiden
 
 Documentação visual: Tirei fotos do dispositivo funcionando e registrei os resultados dos testes. 📸
 
-🔍 Status do hardware:
-Tracker LilyGO:
+## 🔍 Status do hardware:
+**Tracker LilyGO:**
 
 •   ✅ Conectado a um satélite com sucesso.
 
@@ -20,18 +20,18 @@ Tracker LilyGO:
 
 •   ✅ Atualizando coordenadas em tempo real.
 
-Conexão com gateways:
+**Conexão com gateways:**
 
 •   🔧 Ainda não conectado aos gateways da Unijuí.
 
-Sinal e alcance:
+**Sinal e alcance:**
 
 •   🌫️ O dispositivo manteve o sinal mesmo em áreas parcialmente obstruídas (escadas entre os prédios).
 
 •   📡 Pronto para integração com a rede LoRaWAN via ChirpStack.
 
-⚡ Próximos passos:
-Conectar o tracker aos gateways da Unijuí:
+## ⚡ Próximos passos:
+**Conectar o tracker aos gateways da Unijuí:**
 
 •   Configurar o dispositivo para se comunicar com os gateways disponíveis na universidade.
 
@@ -51,7 +51,7 @@ Conectar o tracker aos gateways da Unijuí:
 
 •   Organizar as fotos e dados coletados para apresentação e análise.
 
-📝 Detalhes adicionais:
+## 📝 Detalhes adicionais:
 Ontem, dia 21/03/2025, após várias tentativas, consegui conectar o tracker LilyGO a um satélite. O processo de instalação do firmware do Meshtastic foi bem-sucedido, tanto no macOS quanto no Windows, embora inicialmente o dispositivo não fosse reconhecido pela conexão via cabo. Após alguns ajustes, a conexão foi estabelecida, e o dispositivo começou a funcionar corretamente.
 
 Para garantir uma visão clara do céu, realizei os testes no estacionamento do Prédio 1 da Fidene. O dispositivo conseguiu atualizar as coordenadas em tempo real, mesmo nas escadas entre o Prédio 1 e o Prédio 8, onde o sinal ainda era estável. Tirei fotos do processo para documentar os resultados.
