@@ -1,4 +1,3 @@
-/*
 #include <lmic.h>
 #include <hal/hal.h>
 #include <SPI.h>
@@ -80,4 +79,3 @@ void loop() {
     os_runloop_once();
     delay(10);
 }
-*/
