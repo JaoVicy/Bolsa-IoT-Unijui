@@ -1,53 +1,104 @@
-# 📅 Relatório - 08/05/2025
+# 📅 Relatório - 06/06/2025
 
 ## 📌 Atividades realizadas:
-**Conclusão da Segunda Sequência de Testes:**
-- Hoje, finalizei oficialmente a segunda sequência de testes baseados nos resultados obtidos anteriormente.
-- Esta etapa envolveu o cálculo de distância entre coordenadas, utilizando os dados de latitude e longitude de cada interação do ChirpStack.
-- Os testes foram realizados no editor de código Visual Studio Code (VS Code), utilizando o código previamente desenvolvido em Python.
+Hoje, além da continuidade dos testes de firmware em trackers, realizamos extensos testes de campo utilizando patinetes elétricos pela cidade de Ijuí, conforme detalhado abaixo:
 
-## 🔬 Detalhes dos Testes:
-**Objetivo:**
-- Calcular a distância entre coordenadas, tomando como base uma coordenada inicial e comparando-a com as demais fornecidas durante a execução do programa.
+---
 
-**Metodologia:**
-- A lógica dos cálculos consistiu em:
-  1. Selecionar a primeira coordenada como referência.
-  2. Calcular a distância entre essa coordenada e cada uma das demais.
-  3. Registrar os resultados para análise de precisão e possíveis inconsistências.
+### **2.163. Teste de Implementação de Firmware em Todos os Trackers Não Funcionais**
+- Realizado o upload do firmware fornecido pelo professor Batisti nos trackers inicialmente não funcionais.
+- **Problemas Identificados:**
+  - Falhas de configuração do ambiente.
+  - Bibliotecas não estavam corretamente instaladas.
+  - **Incompatibilidade das bibliotecas LMIC:** Observou-se que o problema de funcionamento dos demais trackers com o firmware decorre de uma incompatibilidade da biblioteca LMIC utilizada. Isso faz com que eles reiniciem (resetem) automaticamente durante a execução do código.
+- **Correções Realizadas:**
+  - Ajustes no ambiente e instalação das bibliotecas necessárias.
+  - Seleção correta da placa na IDE do Arduino.
+- **Resultado Final:**
+  - Firmware carregado com sucesso após os ajustes em trackers compatíveis. Os trackers com incompatibilidade de LMIC continuam apresentando reboots.
 
-**Ferramentas Utilizadas:**
-- **Editor:** Visual Studio Code (VS Code)
-- **Linguagem:** Python
-- **Repositório:** [GitHub - Distance Calc](https://github.com/JaoVicy/distance-calc-python)
+---
 
-**Resultados Obtidos:**
-- Os testes foram um sucesso, com os cálculos sendo realizados conforme esperado.
-- No entanto, foi identificada uma possível discrepância nos resultados, com um erro estimado de aproximadamente 100 metros em algumas medições.
+### **2.164. Upload do Firmware no Tracker 1**
+- **Descrição do Processo:**
+  - Firmware carregado com sucesso no Tracker 1.
+- **Resultado:**
+  - Nenhuma falha durante a gravação do código na placa.
+
+---
+
+### **2.165. Upload do Firmware no Tracker 2**
+- **Descrição do Processo:**
+  - Processo de gravação aparentemente concluído, porém o display do dispositivo não apresentou notificações ou respostas visuais.
+- **Situação Atual:**
+  - Causa do problema ainda sob investigação.
+
+---
+
+### **2.166. Upload do Firmware no Tracker 3**
+- **Descrição do Processo:**
+  - Firmware carregado com sucesso no Tracker 3.
+- **Limitações:**
+  - Tracker não possui módulo GPS, limitando o funcionamento completo do firmware.
+
+---
+
+## 🛴 Testes de Campo com Patinetes Elétricos (06/06/2025)
+- Utilização de patinete elétrico da universidade para percorrer diversos pontos de Ijuí, acompanhado de um amigo ([@jawc-05](https://github.com/jawc-05)) que também utilizou patinete.
+- Testes realizados até o campus da universidade e em outros locais, com foco no uso do tracker do professor Batisti.
+- **Observações:**
+  - O tracker apresentava um fio desconectado, ocasionando mau funcionamento do sensor de temperatura e umidade.
+  - Apesar da falha no sensor, não foram observados erros nos requests de captura de coordenadas.
+  - Em áreas próximas à entrada do campus e regiões mais afastadas da antena/hotspot, o tracker deixou de enviar atividade para o Chirpstack.
+  - Realizados mais de 60 testes de captura de coordenadas, todos registrados para análise posterior.
+
+---
 
 ## 🔍 Status do Projeto:
-**Segunda Sequência de Testes:**
-- ✅ Testes finalizados com sucesso.
-- ⚠️ Identificação de um possível erro de cálculo de aproximadamente 100 metros.
+### Implementação de Firmware:
+- ✅ Firmware funcional em dois dispositivos (Tracker 1 e Tracker 3).
+- ⚠️ Problema identificado no Tracker 2, em investigação.
+- ⚠️ Trackers com incompatibilidade LMIC continuam reiniciando.
 
-**Próximos passos:** 
-- Realizar testes adicionais para verificar e comprovar a existência desse erro.
-- Ajustar o código, se necessário, para melhorar a precisão dos cálculos.
+### Configuração de Ambiente:
+- ✅ Ambiente ajustado com sucesso, bibliotecas instaladas.
+
+### Funcionalidades dos Trackers:
+- 🚫 Tracker 3 com limitações devido à ausência de módulo GPS.
+- ⚠️ Sensor de temperatura/umidade do tracker do professor Batisti apresentando falha.
+
+### Testes de Campo:
+- 🛴 Testes extensivos em diferentes áreas da cidade, com destaque para pontos distantes do hotspot.
+
+---
 
 ## ⚡ Próximos passos:
-**Validação da Discrepância Identificada:**
-- Projetar cenários de teste que permitam avaliar com mais precisão a possível discrepância identificada.
-- Comparar os resultados obtidos com ferramentas de cálculo de distância externas para validação.
+1. **Investigar o Problema no Tracker 2:**
+   - Analisar logs e revisar o processo de upload.
+   - Testar hardware, especialmente o display.
 
-**Aprimoramento do Código:**
-- Revisar a lógica de cálculo para identificar possíveis causas do erro.
-- Implementar ajustes e melhorias, caso necessário, para corrigir a discrepância.
+2. **Avaliar Funcionalidades Limitadas no Tracker 3:**
+   - Planejar integração de módulo GPS.
 
-**Documentação:**
-- Atualizar o documento principal da bolsa de IoT com os resultados obtidos e os próximos passos.
+3. **Corrigir Falha no Tracker do Professor Batisti:**
+   - Reconectar fio responsável pelo sensor de temperatura/umidade.
 
-## 📝 Detalhes adicionais:
-Nesta etapa, finalizei a segunda sequência de testes utilizando o código desenvolvido para cálculo de distâncias entre coordenadas. Apesar do sucesso geral dos testes, foi identificado um possível erro de cerca de 100 metros, que será investigado em etapas futuras.
+4. **Investigar e Resolver Incompatibilidade LMIC nos demais trackers:**
+   - Testar diferentes versões da biblioteca LMIC ou ajustes no firmware visando compatibilidade.
 
-## 🔗 Link do Repositório:
-- [Distance Calc - Projeto em Python](https://github.com/JaoVicy/distance-calc-python)
+5. **Documentar Resultados:**
+   - Atualizar documentação principal da bolsa IoT com resultados e ajustes.
+
+6. **Analisar Dados Capturados:**
+   - Avaliar os mais de 60 testes de coordenadas registrados.
+
+---
+
+## 🔗 Recursos Utilizados:
+- **IDE:** Arduino IDE
+- **Firmware:** Fornecido pelo professor Batisti
+- **Dispositivos Testados:** Trackers 1, 2, 3 e tracker do professor Batisti
+- **Patinetes Elétricos:** Da universidade
+- **Companheiro de Testes:** [@jawc-05](https://github.com/jawc-05)
+
+---
