@@ -9,7 +9,8 @@ Além de servir como um histórico das atividades, este repositório visa facili
 - Relatórios detalhados sobre cada fase do projeto;
 - Atualizações e melhorias implementadas;
 - Registro de desafios e soluções adotadas;
-- Documentação técnica e código-fonte relevante.
+- Documentação técnica e código-fonte relevante;
+- Imagens das implementações.
 
 # 🚀 Objetivo do Projeto
 
@@ -22,6 +23,7 @@ Este repositório será atualizado continuamente conforme o avanço das atividad
 - Cada branch representa um **mês da bolsa**, contendo os projetos e resultados desenvolvidos durante aquele período.
 - Os projetos documentados em cada branch incluem relatórios de progresso, implementações realizadas e análises de desempenho.
 - A estrutura foi pensada para facilitar o acompanhamento mensal e o gerenciamento das atividades realizadas.
+- A branch **main** no momento esta com o conteúdo de todas as outras branchs.
 
 ```branches
 Exemplo:
