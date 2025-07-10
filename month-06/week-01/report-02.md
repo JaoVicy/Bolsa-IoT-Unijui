@@ -40,5 +40,6 @@ Hoje, dia 10/07/2025, estou registrando as atividades realizadas nesta data. As 
 - **Documentação do Projeto:** Corrigida e atualizada conforme necessidades.
 - **Tracker de Coleta de Dados:** Utilizado para testar e validar a coleta de coordenadas.
 - **Equipe:** Colaboração com colegas e acompanhamento do professor Gerson Battisti para análise do problema.
+- **Colaborador de bolsa:** [@JaoVicy](https://github.com/JaoVicy)
 
 ---
