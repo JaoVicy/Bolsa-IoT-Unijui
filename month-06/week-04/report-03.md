@@ -8,8 +8,8 @@ Hoje, dia 21/07/2025, estou registrando as atividades realizadas nesta data. As 
 ### **Elaboração do Resumo Expandido**
 - Iniciei a produção do resumo expandido para apresentação no Salão do Conhecimento 2025.
 - Estruturei grande parte do projeto, focando na explicação da metodologia e justificativa das escolhas técnicas.
-- O projeto está sendo desenvolvido no repositório:  
-  🔗 [https://github.com/JaoVicy/distance-calc-python.git](https://github.com/JaoVicy/distance-calc-python.git)
+- O projeto está sendo desenvolvido no docs:  
+  🔗 [https://docs.google.com/document/d/1Mv3G0OLt3bHbgGBZNtaxqvlUFSchTzR9AM8HuJKRwhQ/edit?tab=t.0](https://docs.google.com/document/d/1Mv3G0OLt3bHbgGBZNtaxqvlUFSchTzR9AM8HuJKRwhQ/edit?tab=t.0)
 
 ### **Construção da Tabela Comparativa (Geopy)**
 - Criei uma tabela para comparar as diferentes fórmulas disponíveis na biblioteca **Geopy**.
