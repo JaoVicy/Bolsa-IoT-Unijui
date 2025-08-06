@@ -14,6 +14,9 @@
   - Separar os dados em grupos por sexo.
   - Utilizar **Collections** como `HashMap`, `List` e `ArrayList` para estruturar e manipular as informações.
 
+### **Auxílio aos Bolsistas de Robótica**
+- Auxiliei os bolsistas do grupo de robótica na realização de testes com os sensores de detecção do robô **NAO**, visando desenvolver o movimento do robô em direção a um alvo, neste caso uma pessoa. Contribuí com orientações técnicas e acompanhamento dos testes para garantir o funcionamento correto dos sensores e do deslocamento do robô.
+
 ---
 
 ## 🔍 Status do Dia:
@@ -21,6 +24,7 @@
 - ✅ Apoio técnico ao estagiário Pedro para elaboração do relatório de estágio.
 - ✅ Documento de testes da aplicação web atualizado.
 - ✅ Exercício prático de Java realizado, com foco em Collections e manipulação de grupos de dados.
+- ✅ Suporte aos bolsistas de robótica nos testes com sensores do robô NAO para movimentação em direção a pessoas.
 
 ---
 
@@ -29,6 +33,7 @@
 1. Finalizar a transcrição completa sobre a aplicação web no documento de testes.
 2. Continuar auxiliando Pedro e demais membros da equipe conforme necessário.
 3. Avançar nos estudos em Java, explorando mais casos de uso com Collections.
+4. Dar continuidade aos testes e avanços nos projetos de robótica, especialmente no aperfeiçoamento do controle do robô NAO via sensores.
 
 ---
 
